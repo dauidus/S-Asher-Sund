@@ -1,0 +1,32 @@
+.tp-caption.big_orange {
+position:absolute;
+color:#ff7302;
+text-shadow:none;
+font-weight:700;
+font-size:36px;
+line-height:36px;
+font-family:"Special Elite";
+padding:4px 4px 0px 4px;
+margin:0px;
+border-width:0px;
+border-style:none;
+background-color:#000;
+letter-spacing:-1.5px;
+}
+
+.tp-caption.big_white {
+position:absolute;
+color:#000;
+text-shadow:none;
+font-weight:700;
+font-size:32px;
+line-height:32px;
+font-family:"Special Elite";
+padding:4px 4px 0px 4px;
+margin:0px;
+border-width:0px;
+border-style:none;
+background-color:#fff;
+letter-spacing:-1.5px;
+}
+

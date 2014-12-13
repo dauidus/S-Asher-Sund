@@ -1,0 +1,517 @@
+/*-----------------------------------------------------------------------------------*
+/* Superfish Drop-down Menu essential styles
+/*-----------------------------------------------------------------------------------*/
+.sf-menu-primary,.sf-menu-primary ul* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.sf-menu-primary {
+	line-height:1;
+}
+
+.sf-menu-primary ul {
+	position:absolute;
+	top:-999em;
+	width:20em;
+/* left offset of submenus need to match (see below) */
+}
+
+.sf-menu-primary ul li {
+	width:100%;
+}
+
+.sf-menu-primary li:hover {
+	visibility:inherit;
+/* fixes IE7 'sticky bug' */
+}
+
+.sf-menu-primary li {
+	float:left;
+	position:relative;
+}
+
+.sf-menu-primary a {
+	position:relative;
+}
+
+.sf-menu-primary li:hover ul,.sf-menu-primary li.sfHover ul {
+	left:-44px;
+	top:80px;
+/* match top ul list item height */
+}
+
+ul.sf-menu-primary li:hover li ul,ul.sf-menu-primary li.sfHover li ul {
+	top:-999em;
+}
+
+ul.sf-menu-primary li li:hover ul,ul.sf-menu-primary li li.sfHover ul {
+	left:196px;
+/* match ul width */
+	top:-10px;
+}
+
+ul.sf-menu-primary li li:hover li ul,ul.sf-menu-primary li li.sfHover li ul {
+	top:-999em;
+}
+
+ul.sf-menu-primary li li li:hover ul,ul.sf-menu-primary li li li.sfHover ul {
+	left:15em;
+/* match ul width */
+	top:0;
+}
+
+/*-----------------------------------------------
+CURRENT MENU ITEMS AND HOVERING ON CURRENT
+-------------------------------------------------*/
+ul.sf-menu-primary ul li.current-menu-item a {
+	margin-top:0!important;
+	margin-bottom:0!important;
+	width:160px!important;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:20px!important;
+    padding-right:20px!important;
+
+	margin-left:0px!important;
+	margin-right:0px!important;
+	font-size:12px;
+	background-image:none!important;
+	color:#f0f0f0;
+	border-top:0 solid #fff!important;
+	text-align:left!important;
+	background-color:transparent!important;
+	line-height:20px;
+	height:20px;
+	font-weight:400!important;
+	border-bottom:0 dotted #434445;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-radius:0px;
+	-moz-box-shadow:inset 0 0 18px 1px rgba(0,0,0,0.0);
+	-webkit-box-shadow:inset 0 0 18px 1px rgba(0,0,0,0.0);
+	box-shadow:inner 0 0 18px 1px rgba(0,0,0,0.0);
+}
+
+ul.sf-menu-primary ul li.current-menu-item a:hover {
+	color:#f0f0f0;
+	font-weight:400!important;
+	-moz-box-shadow:inset 0 0 18px 1px rgba(0,0,0,0.0);
+	-webkit-box-shadow:inset 0 0 18px 1px rgba(0,0,0,0.0);
+	box-shadow:inner 0 0 18px 1px rgba(0,0,0,0.0);
+}
+
+/*-----------------------------------------------------------------------------------------
+MENU DROPDOWN FONT ATTRIBUTES AND BACKGROUND WHEN HOVERED
+-------------------------------------------------------------------------------------------------*/
+ul.sf-menu-primary ul li:first-child {
+	padding-top:10px;
+	font-size:12px;
+	width:200px!important;
+	text-align:left!important;
+}
+
+ul.sf-menu-primary ul {
+	width:200px!important;
+	z-index:99;
+	padding-top:0;
+	background-color:#393a3b;
+	border-radius:2px;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.2);
+	box-shadow:0 1px 3px rgba(0,0,0,0.2);
+/* 	background-image:url(../images/noise-menu.png); background-repeat: repeat; */
+	border-top:0;
+	border:0px solid #414243;
+}
+
+ul.sf-menu-primary ul li ul {
+	z-index:99;
+	background-color:#393a3b;
+	padding-top:0;
+	border-radius:2px;
+/* 	background-image:url(../images/noise-menu.png); background-repeat: repeat; */
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+}
+
+ul.sf-menu-primary ul li ul li:first-child {
+	background-image:none;
+}
+
+ul.sf-menu-primary ul li:first-child a {
+}
+
+ul.sf-menu-primary ul li:last-child a {
+}
+
+/*controls all bottom links in each menu*/
+ul.sf-menu-primary ul li:last-child {
+	padding-bottom:10px;
+	font-size:12px;
+	width:200px!important;
+	text-align:left!important;
+}
+
+/*shell around all links*/
+ul.sf-menu-primary ul li {
+	display:block;
+	margin:0;
+	height:auto;
+	clear:both;
+	position:relative;
+	margin-top:0;
+	margin-bottom:0;
+	font-size:12px;
+	border:0;
+	transition-duration:.3s;
+	-moz-transition-duration:.3s;
+/* Firefox 4 */
+	-webkit-transition-duration:.3s;
+/* Safari and Chrome */
+	-o-transition-duration:.3s;
+/* Opera */
+	width:200px!important;
+	text-align:left!important;
+	z-index:9;
+}
+
+/*inside shell of the actual wrap*/
+.sf-menu-primary ul li a {
+	display:block;
+	height:auto;
+	font-size:12px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:20px!important;
+	padding-right:20px!important;
+
+	margin-left:0px!important;
+	margin-right:0px!important;
+	margin-bottom:0;
+	margin-top:0;
+	border-top:0 solid #ddd;
+	width:160px!important;
+	text-align:left!important;
+	font-weight:400!important;
+	color:#afafaf;
+	line-height:20px;
+	border-bottom:0 dotted #333;
+}
+
+/*-------------------------------------------------------------------------
+WHEN HOVERING OVER SUB MENU ITEMS
+--------------------------------------------------------------------------------*/
+ul.sf-menu-primary ul li:hover {
+	cursor:pointer;
+}
+
+/*center of the wrapping menu on hover*/
+.sf-menu-primary ul li a:hover {
+	font-size:12px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:20px!important;
+	padding-right:20px!important;
+
+	margin-left:0px!important;
+	margin-right:0px!important;
+	margin-bottom:0;
+	margin-top:0;
+	border-top:0 solid #ddd;
+	text-align:left!important;
+	width:160px!important;
+	background-color:#313331!important;
+	color:#f0f0f0!important;
+	font-weight:400!important;
+	border-radius:0px;
+	-moz-box-shadow:inset 0 0 18px 1px rgba(0,0,0,0.0);
+	-webkit-box-shadow:inset 0 0 18px 1px rgba(0,0,0,0.0);
+	box-shadow:inner 0 0 18px 1px rgba(0,0,0,0.0);
+	border-left:0 solid #252625;
+	border-top:0 solid #252625;
+	border-bottom:0 solid #484848;
+	border-right:0 solid #484848;
+	background-image:url(../images/gradient-menu-hover-reverse.png);
+	background-repeat:repeat-x;
+	background-position:bottom left;
+}
+
+/*----------------------------------------------------------------------------------------------------
+END OF SUB MENUS WHEN HOVERED BEGIN TOP LEVEL MENU OR PARENT MENU
+----------------------------------------------------------------------------------------------------*/
+nav .input_search .search_input { margin-left:20px; margin-top:13px; width:100px!important; border:1px solid #a2a0a0; background-color:#fff; }
+
+.sf-menu-primary {
+	width:800px;
+	margin:0px auto;
+	border-left:0 solid #fff;
+	border-right:0 solid #999;
+	z-index:999;
+}
+
+.sf-menu-primary a {
+	margin:0 5px;
+	color:#000;
+	font-size:16px;
+	width:auto;
+	height:60px;
+	line-height:60px;
+	padding-top:5px;
+	padding-left:7px;
+	padding-bottom:5px;
+	padding-right:7px;
+	text-align:center;
+	font-weight:400;
+	float:left;
+}
+
+.sf-menu-primary a:hover {
+	color:#dc7075;
+	font-size:16px;
+	margin:0 5px;
+	text-align:center;
+	width:auto;
+	font-weight:400;
+	float:left;
+	border-bottom:1px solid;
+	border-color:#dc7075;
+}
+
+.sf-menu-primary .current-menu-item a,
+
+.home ul.sf-menu-primary li.menu-home a,
+
+.post-type-archive-sounds ul.sf-menu-primary li.menu-sounds a,
+.single-sounds ul.sf-menu-primary li.menu-sounds a,
+
+.post-type-archive-fiction ul.sf-menu-primary li.menu-fiction a,
+.single-fiction ul.sf-menu-primary li.menu-fiction a,
+
+.post-type-archive-poetry ul.sf-menu-primary li.menu-poetry a,
+.single-poetry ul.sf-menu-primary li.menu-poetry a,
+
+.post-type-archive-lyrics ul.sf-menu-primary li.menu-lyrics a,
+.single-lyrics ul.sf-menu-primary li.menu-lyrics a {
+	font-size:16px;
+	width:auto;
+	float:left;
+	margin:0 5px;
+	height:60px;
+	line-height:60px;
+	padding-top:5px;
+	padding-left:7px;
+	padding-bottom:5px;
+	padding-right:7px;
+	color:#dc7075;
+	text-align:center;
+	font-weight:400;
+/* 	background-image:url(../images/patterns/slashes.png); background-repeat:repeat;  */
+	border-bottom:1px solid;
+	border-color:#dc7075;
+}
+
+.sf-menu-primary .sfHover {
+	transition-duration:.2s;
+	-moz-transition-duration:.2s;
+/* Firefox 4 */
+	-webkit-transition-duration:.2s;
+/* Safari and Chrome */
+	-o-transition-duration:.2s;
+/* Opera */
+/*
+	background-repeat:no-repeat;
+	background-image:url(../images/menu-hover-dark.png); background-repeat: no-repeat; background-position: 0 180px;
+*/
+	-webkit-transition-delay:.3s;
+	-moz-transition-delay:.3s;
+	-o-transition-delay:.3s;
+	-ms-transition-delay:.3s;
+	transition-delay:.3s;
+}
+
+.sf-menu-primary .sfHover:hover {
+	-webkit-transition-delay:.05s;
+	-moz-transition-delay:.05s;
+	-o-transition-delay:.05s;
+	-ms-transition-delay:.05s;
+	transition-delay:.05s;
+	transition-duration:.2s;
+	-moz-transition-duration:.2s;
+/* Firefox 4 */
+	-webkit-transition-duration:.2s;
+/* Safari and Chrome */
+	-o-transition-duration:.2s;
+/* Opera */
+/*
+	background-repeat:no-repeat;
+	background-image:url(../images/menu-hover-dark.png); background-repeat: no-repeat; background-position: 0 6px;
+*/
+	z-index:9999;
+}
+
+ul.sf-menu-primary ul li.sfHover {
+	background-image:none;
+	text-align:left!important;
+}
+
+/*clearing image from the primary menus*/
+ul.sf-menu-primary ul li.sfHover:hover {
+	text-align:left!important;
+	border-bottom:0;
+}
+
+/*clearing image menus*/
+ul.sf-menu-primary .current-menu-item ul li a {
+	display:block;
+	height:auto;
+	font-size:12px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:20px!important;
+	padding-right:20px!important;
+
+	margin-left:0px!important;
+	margin-right:0px!important;
+	margin-bottom:0;
+	margin-top:0;
+	border-top:0 solid #ddd;
+	width:160px!important;
+	text-align:left!important;
+	font-weight:400!important;
+	background-color:transparent!important;
+	color:#afafaf;
+	line-height:20px;
+	border-bottom:0 dotted #434445;
+}
+
+ul.sf-menu-primary .current-menu-item ul li a:hover {
+	font-size:12px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:20px!important;
+	padding-right:20px!important;
+
+	margin-left:0px!important;
+	margin-right:0px!important;
+	margin-bottom:0;
+	margin-top:0;
+	border-top:0 solid #ddd;
+	text-align:left!important;
+	background-image:url(../images/gradient-menu-hover-reverse.png);
+	background-repeat:repeat-x;
+	background-position:bottom left;
+	width:160px!important;
+	background-color:#313331!important;
+	color:#f0f0f0!important;
+	font-weight:400!important;
+	border-radius:0px;
+	-moz-box-shadow:inset 0 0 18px 1px rgba(0,0,0,0.0);
+	-webkit-box-shadow:inset 0 0 18px 1px rgba(0,0,0,0.0);
+	box-shadow:inner 0 0 18px 1px rgba(0,0,0,0.0);
+	border-left:0 solid #252625;
+	border-top:0 solid #252625;
+	border-bottom:0 solid #484848;
+	border-right:0 solid #484848;
+}
+
+.sf-menu-primary .first-menu-item a {
+	border-left:none;
+}
+
+.sub a {
+	border-left:0 solid #333;
+	padding:.75em;
+	text-decoration:none;
+	padding-left:10px;
+}
+
+.sub a:hover {
+	border-left:0 solid #333;
+	background-repeat:repeat;
+	padding:.75em;
+	text-decoration:none;
+	padding-left:10px;
+}
+
+.sf-menu-primary ul {
+}
+
+.sf-menu li {
+}
+
+.sf-menu li li {
+}
+
+.sf-menu li li li {
+}
+
+.sf-menu li:hover,.sf-menu li.sfHover,.sf-menu a:hover,.sf-menu a:focus,.sf-menu a:active {
+	outline:0;
+}
+
+.sf-shadow ul {
+	width:200px;
+}
+
+.sf-shadow ul.sf-shadow-off {
+	background:transparent;
+}
+
+
+
+
+
+
+
+
+
+/* Effect 21: borders slight translate */
+.cl-effect-21 a {
+	text-shadow: none;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.cl-effect-21 a::before,
+.cl-effect-21 a::after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #000;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.cl-effect-21 a::before {
+	top: 17px;
+	-webkit-transform: translateY(-17px);
+	-moz-transform: translateY(-17px);
+	transform: translateY(-17px);
+}
+
+.cl-effect-21 a::after {
+	bottom: 20px;
+	-webkit-transform: translateY(20px);
+	-moz-transform: translateY(20px);
+	transform: translateY(20px);
+}
+
+.cl-effect-21 a:hover::before,
+.cl-effect-21 a:focus::before,
+.cl-effect-21 a:hover::after,
+.cl-effect-21 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}

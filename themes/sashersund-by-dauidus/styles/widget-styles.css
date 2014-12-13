@@ -1,0 +1,491 @@
+/* widget styles */
+.side-comment-wrap {
+	float:left;
+	margin-bottom:0;
+	width:100%;
+	max-width:225px;
+	padding-bottom:20px;
+	padding-top:0px;
+	text-align:left;
+}
+
+.twitter_button_tweet {
+	width:79px!important;
+	float:right!important;
+	overflow:hidden;
+}
+
+
+.side-comment-wrap a, .widget_blogphix_latest_tweets  a {color:#dc7075; }
+.side-comment-wrap a:hover, .widget_blogphix_latest_tweets  a:hover {text-decoration: underline; }
+
+.footer-blocked-inside .widget_blogphix_latest_tweets p {float:left; margin-top:2px; }
+
+/*----------------------------------------------------------------------------
+FLICKR IMAGES
+------------------------------------------------------------------------------*/
+ul.flickrImages {
+	float:left;
+	width:100%;
+}
+
+.footer-blocked-inside .Blogphix_flickr_widget a img {
+	height:48px;
+	width:48px;
+	float:left;
+	margin-left:0px;
+	margin-right:10px;
+	margin-top:4px;
+	margin-bottom:10px;
+    border:0px solid #333;	
+	border-radius:3px;
+	
+
+	transition-duration:.1s;
+	-moz-transition-duration:.1s;
+	-webkit-transition-duration:.1s;
+	-o-transition-duration:.1s;
+
+
+}
+
+
+.Blogphix_flickr_widget a img {
+	height:48px;
+	width:48px;
+	float:left;
+	margin-left:0px;
+	margin-right:10px;
+	margin-top:4px;
+	margin-bottom:10px;
+    border:0px solid #efefef;	
+	border-radius:3px;
+	
+
+	transition-duration:.1s;
+	-moz-transition-duration:.1s;
+	-webkit-transition-duration:.1s;
+	-o-transition-duration:.1s;
+
+
+}
+
+.Blogphix_flickr_widget a img:hover {
+
+	border:0px solid;
+	border-color:#dc7075;
+	transition-duration:.1s;
+	-moz-transition-duration:.1s;
+	-webkit-transition-duration:.1s;
+	-o-transition-duration:.1s;
+
+	-moz-opacity:.85;
+	-khtml-opacity:.85;
+	opacity:.85;
+
+
+}
+
+
+.twitter {width:50px!important; float:left; margin-right:10px; margin-left:10px; margin-top:8px;}
+.facebook {width:50px!important; float:left; margin-right:0px; margin-left:0px; margin-top:8px; }
+.facebook .iframe {width:50px!important; float:left; margin-right:0px; margin-left:0px; }
+
+
+.widget-area-footer .textwidget {
+    float:left; 
+    width:100%; 
+}
+
+
+
+.sidebar .textwidget {
+    float:left; 
+    width:100%; 
+}
+
+
+.sidebar .widget-container {
+	margin-bottom:30px;
+	float:left;
+	width:225px;
+	
+	
+}
+
+.sidebar-left .widget-container {
+	margin-bottom:30px;
+	float:left;
+	width:225px;
+	
+	
+}
+
+
+.homepage_widget_divie .widget-container {
+	margin-bottom:40px;
+	float:left;
+	width:240px;
+}
+
+.commentswidget {
+	float:left;
+	width:290px;
+	padding-bottom:5px;
+	border-bottom:1px dotted;
+	border-color:#999;
+	padding-top:5px;
+	background-repeat:no-repeat;
+}
+
+#comments-logged-in {
+	float:left;
+	font-size:10px;
+}
+
+.sidebar-recent-portfolio {
+	float:left;
+	padding-left:10px;
+	padding-right:0;
+	width:240px;
+	margin-top:5px;
+	margin-left:-10px;
+/*to offest image margin*/
+}
+
+.attachment-widget-thumbnail {
+	height:54px;
+	width:54px;
+	float:left;
+	margin-left:0;
+	margin-right:10px;
+	margin-top:3px;
+	margin-bottom:10px;
+	background-color:#efefef;
+	padding:4px;
+	border:1px solid #ddd;
+	border-bottom:1px solid #ccc!important;
+	border-radius:2px;
+	-moz-box-shadow:inset 0 0 0 1px #fff;
+	-webkit-box-shadow:inset 0 0 0 1px #fff;
+	box-shadow:inset 0 0 0 1px #fff;
+}
+
+.attachment-widget-portfolios {
+	height:60px;
+	width:95px;
+	float:left;
+/*
+	margin-left:3px;
+	margin-right:4px;
+	margin-top:3px;
+	margin-bottom:6px;
+*/
+	margin-left:10px;
+	margin-bottom:10px;
+	background-color:#efefef;
+	padding:4px;
+	border:1px solid #ddd;
+	border-bottom:1px solid #ccc!important;
+	border-radius:2px;
+	-moz-box-shadow:inset 0 0 0 1px #fff;
+	-webkit-box-shadow:inset 0 0 0 1px #fff;
+	box-shadow:inset 0 0 0 1px #fff;
+}
+
+
+.footer-blocked-inside input.search_input {
+	margin-left:0!important;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+ul .cat-item
+ {
+	float:left;
+	width:100%;
+}
+
+
+
+.widget_categories li
+
+
+ {
+	float:left;
+	border:0 solid #fff;
+	border-radius:0px;
+	width:100%;
+	padding:0px;
+	margin-bottom:0px;
+	line-height:20px;
+}
+
+.widget_categories li a
+
+ {  
+	font-weight:400!important;
+	padding-right:0px!important;
+}
+
+.widget_categories li a:hover
+
+ {
+    text-decoration: underline;
+}
+
+
+
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.sidebar-left-info a:hover {
+    text-decoration: underline;
+    
+}
+
+
+
+
+/* all sidebar and footer menus */
+.widget_nav_menu ul {
+	float:left;
+	width:100%;
+	max-width:245px;
+}
+
+.widget_nav_menu ul li {
+	float:left;
+	border:0 solid #fff;
+	border-radius:0px;
+	width:100%;
+	padding:0px;
+	margin-bottom:0px;
+	line-height:20px;
+}
+
+.widget_nav_menu ul li a {
+	font-weight:400!important;
+	padding-right:0px!important;
+}
+
+.widget_nav_menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* end all widget non specific list items and uls */
+/* all sidebar and footer menus */
+.widget_archive ul {
+	float:left;
+	width:100%;
+	max-width:245px;
+}
+
+.widget_archive ul li {
+	float:left;
+	border:0 solid #fff;
+	border-radius:0px;
+	width:100%;
+	padding:0px;
+	margin-bottom:0px;
+	line-height:20px;
+}
+
+.widget_archive ul li a {
+	font-weight:400!important;
+}
+
+.widget_archive ul li a:hover {
+    text-decoration: underline;
+}
+
+/* all sidebar and footer menus */
+
+/* all sidebar and footer menus */
+.widget_meta ul {
+	float:left;
+	width:100%;
+	max-width:245px;
+}
+
+.widget_meta ul li {
+	float:left;
+	border:0 solid #fff;
+	border-radius:0px;
+	width:100%;
+	padding:0px;
+	margin-bottom:0px;
+	line-height:20px;
+}
+
+
+.widget_meta ul li a {
+	font-weight:400!important;
+	padding-right:0px!important;
+}
+
+.widget_meta ul li a:hover {
+    text-decoration: underline;
+}
+
+/* all sidebar and footer menus */
+.widget_pages ul {
+	float:left;
+	width:100%;
+	max-width:245px;
+}
+
+.widget_pages ul li {
+	float:left;
+	border:0 solid #fff;
+	border-radius:0px;
+	width:100%;
+	padding:0px;
+	margin-bottom:0px;
+	line-height:20px;
+}
+
+.widget_pages ul li a {
+	font-weight:400!important;
+	padding-right:0px!important;
+}
+
+.widget_pages ul li:hover {
+    text-decoration: underline;
+}
+
+.widget_recent_colored p {
+	font-size:12px!important;
+	font-style:normal;
+	margin-bottom:0!important;
+	margin-top:0px;
+	font-weight:400;
+}
+
+
+li.widget_recent_colored {
+	float:left;
+	margin-top:2px;
+/*one extra to make up for the bottom border */
+	width:100%;
+	max-width:245px;
+	margin-bottom:15px;
+	
+}
+
+.vimeo_widget {
+	float:left;
+}
+
+.widget_tag_cloud a {
+	line-height:20px;
+	padding:2px;
+	padding-right:8px;
+	padding-left:8px;
+	color:#888;
+	width:auto;
+	height:20px;
+	background-color:#efefef;
+	overflow:hidden;
+	display:block;
+	text-transform: lowercase;
+	float:left;
+	margin-top:2px;
+	margin-bottom:6px;
+	margin-right:7px;
+	font-size:12px!important;
+	font-weight:400!important;
+	border-radius:2px;
+	
+	transition-duration:.1s;
+	-moz-transition-duration:.1s;
+	-webkit-transition-duration:.1s;
+	-o-transition-duration:.1s;
+	
+	border:1px solid #ddd;
+
+
+
+}
+
+.widget_tag_cloud a:hover {
+	text-decoration:none;
+	color:#888!important;
+	font-weight:400!important;
+	background-color:#fdfdfd;
+
+	transition-duration:.1s;
+	-moz-transition-duration:.1s;
+	-webkit-transition-duration:.1s;
+	-o-transition-duration:.1s;
+
+
+
+}
+
+.widget_Blogphix_comments a {
+	font-weight:400!important;
+}
+
+.footer-blocked-inside .widget_tag_cloud a {
+	line-height:20px;
+	padding:2px;
+	padding-right:8px;
+	padding-left:8px;
+	color:#c8c8c8;
+	width:auto;
+	height:20px;
+	background-color:#272827;
+	overflow:hidden;
+	display:block;
+	text-transform: lowercase;
+	float:left;
+	margin-top:2px;
+	margin-bottom:6px;
+	margin-right:7px;
+	font-size:12px!important;
+	font-weight:400!important;
+	border-radius:2px;
+	
+	transition-duration:.1s;
+	-moz-transition-duration:.1s;
+	-webkit-transition-duration:.1s;
+	-o-transition-duration:.1s;
+	
+	border:1px solid #292929;
+
+
+
+}
+
+.footer-blocked-inside .widget_tag_cloud a:hover {
+	text-decoration:none;
+	color:#fff!important;
+	font-weight:400!important;
+	background-color:#323232;
+
+	transition-duration:.1s;
+	-moz-transition-duration:.1s;
+	-webkit-transition-duration:.1s;
+	-o-transition-duration:.1s;
+	text-decoration:none!important;
+
+
+}
+
+
+
+
+
+
+

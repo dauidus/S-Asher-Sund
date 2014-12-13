@@ -1,0 +1,340 @@
+/* =======================================================================
+					Parallax Home
+======================================================================= */
+
+@import url(http://fonts.googleapis.com/css?family=Asul:700);
+@import url(http://fonts.googleapis.com/css?family=Averia+Libre:700);
+
+
+#header-index {
+	margin: 0px;
+	height:360px;
+	max-width:100%;
+	overflow:hidden;
+	background: url(../images/parallax/parallax-skyground.jpg) center -83px no-repeat;
+	padding: 0px 0 0px 0;
+	-webkit-animation:headerindex 5.5s;
+	-moz-animation:headerindex 5.5s;
+	-ms-animation:headerindex 5.5s;
+	-o-animation:headerindex 5.5s;
+	animation:headerindex 5.5s;
+	/* border-bottom:1px solid #FFF; */
+}
+	@-webkit-keyframes headerindex {
+		0% { -webkit-filter: grayscale(100%); }	
+		45% { -webkit-filter: grayscale(100%); }
+		100% { -webkit-filter: grayscale(0%); }
+	}
+	@-moz-keyframes headerindex {
+		0% { filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); -moz-filter: grayscale(1); }	
+		45% { filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); -moz-filter: grayscale(1); }
+		100% { filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale"); -moz-filter: grayscale(0); }
+	}
+	@-o-keyframes headerindex {
+		0% { -webkit-filter: grayscale(100%); }	
+		45% { -webkit-filter: grayscale(100%); }
+		100% { -webkit-filter: grayscale(0%); }
+	}
+	@-ms-keyframes headerindex {
+		0% { filter:gray; }	
+		45% { filter:gray; }
+		100% { filter:inherit; }
+	}
+	@keyframes headerindex {
+		0% { filter:gray; }	
+		45% { filter:gray; }
+		100% { filter:inherit; }
+	}
+
+
+#parallax-viewport {
+    position: relative;     /* relative, absolute, fixed */
+    overflow: visible;
+    width:663px;
+    height:440px;
+	margin-top:-83px;
+    margin-left: auto !important;
+	margin-right: auto !important;
+	display:table;
+}
+
+.parallax-layer {
+	position: absolute;
+	height:548px;
+	overflow: hidden;
+
+}
+
+.parallax-1 {
+	background:transparent url(../images/parallax/parallax-asher.indexed.png) top center no-repeat;
+	width:663px;
+	top:5px;
+	z-index:3;
+}
+.parallax-2 {
+	background:transparent url(../images/parallax/parallax-treeleft.indexed.png) top no-repeat;
+	z-index:2;
+	width:663px;
+	-webkit-animation:treeleft 1.4s;
+	-moz-animation:treeleft 1.4s;
+	-ms-animation:treeleft 1.4s;
+	-o-animation:treeleft 1.4s;
+	animation:treeleft 1.4s;
+}
+	@-webkit-keyframes treeleft {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+	@-moz-keyframes treeleft {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+	@-o-keyframes treeleft {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+	@keyframes treeleft {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+
+.parallax-3 {
+	background:transparent url(../images/parallax/parallax-smalltreebird.indexed.png) top no-repeat;
+	z-index:1;
+	width:663px;
+	-webkit-animation:smalltreebird 1.7s;
+	-moz-animation:smalltreebird 1.7s;
+	-ms-animation:smalltreebird 1.7s;
+	-o-animation:smalltreebird 1.7s;
+	animation:smalltreebird 1.7s;
+}
+	@-webkit-keyframes smalltreebird {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+	@-moz-keyframes smalltreebird {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+	@-o-keyframes smalltreebird {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+	@keyframes smalltreebird {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+.parallax-4 {
+	background:transparent url(../images/parallax/parallax-treeright.indexed.png) top no-repeat;
+	z-index:2;
+	width:663px;
+	-webkit-animation:treeright 1.6s;
+	-moz-animation:treeright 1.6s;
+	-ms-animation:treeright 1.6s;
+	-o-animation:treeright 1.6s;
+	animation:treeright 1.6s;
+}
+	@-webkit-keyframes treeright {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+	@-moz-keyframes treeright {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+	@-o-keyframes treeright {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+	@keyframes treeright {
+		0% { margin-top:300px; -webkit-animation-timing-function: ease-in; }	
+		60% { margin-top:0px; -webkit-animation-timing-function: ease-in; }	
+		70% { margin-top:30px; -webkit-animation-timing-function: ease-in; }	
+		80% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+		90% { margin-top:10px; -webkit-animation-timing-function: ease-in; }
+		100% { margin-top:0px; -webkit-animation-timing-function: ease-in; }
+	}
+.parallax-shadow-top {
+	background:rgba(49,49,49,0.3);
+	height:15px;
+	width:40%;
+	margin:0 30%;
+	top:130px;
+	z-index:4;
+}
+.parallax-shadow-bottom {
+	background:rgba(49,49,49,0.2);
+	height:75px;
+	width:60%;
+	margin:0 20%;
+	top:180px;
+	z-index:4;
+}
+.parallax-5, .parallax-6, .parallax-7 {
+	z-index:5;
+	height:200px;
+	/* font-family: 'Asul', sans-serif; */
+	font-family: 'Averia Libre', cursive;
+	color:#000;
+	text-shadow: 0px 0px 2px rgba(255,255,255,1),
+				 0px 0px 2px rgba(255,255,255,1),
+                 0px 0px 1px rgba(255,255,255,1)
+                 ;
+}
+.parallax-5 {
+	top:174px;
+	font-family: 'roughtype';
+	font-size:65px;
+	line-height:75px;
+	letter-spacing:-6px;
+	padding-left:100px;
+	transform:scale(1,1.2); /* W3C */
+    -webkit-transform:scale(1,1.2); /* Safari and Chrome */
+    -moz-transform:scale(1,1.2); /* Firefox */
+    -ms-transform:scale(1,1.2); /* IE 9 */
+    -o-transform:scale(1,1.2); /* Opera */
+	text-align:left !important;
+	width:643px;
+	-webkit-animation:fieldnotes 3.7s;
+	-moz-animation:fieldnotes 3.7s;
+	-ms-animation:fieldnotes 3.7s;
+	-o-animation:fieldnotes 3.7s;
+	animation:fieldnotes 3.7s;
+}
+	@-webkit-keyframes fieldnotes {
+		0% { opacity:0; -webkit-animation-timing-function: ease-in; }	
+		75% { opacity:0; -webkit-animation-timing-function: ease-in; }	
+		95% { opacity:1; -webkit-animation-timing-function: ease-in; }
+		100% { opacity:1; -webkit-animation-timing-function: ease-in; }
+	}
+	@-moz-keyframes fieldnotes {
+		0% { opacity:0; -moz-animation-timing-function: ease-in; }	
+		75% { opacity:0; -moz-animation-timing-function: ease-in; }	
+		95% { opacity:1; -moz-animation-timing-function: ease-in; }
+		100% { opacity:1; -moz-animation-timing-function: ease-in; }
+	}
+	@-o-keyframes fieldnotes {
+		0% { opacity:0; -o-animation-timing-function: ease-in; }	
+		75% { opacity:0; -o-animation-timing-function: ease-in; }	
+		95% { opacity:1; -o-animation-timing-function: ease-in; }
+		100% { opacity:1; -o-animation-timing-function: ease-in; }
+	}
+	@keyframes fieldnotes {
+		0% { opacity:0; animation-timing-function: ease-in; }	
+		75% { opacity:0; animation-timing-function: ease-in; }	
+		95% { opacity:1; animation-timing-function: ease-in; }
+		100% { opacity:1; animation-timing-function: ease-in; }
+	}
+.parallax-6 {
+	top:212px;
+	font-family: 'zero';
+	font-size:40px;
+	line-height:60px;
+	padding-right:100px;
+	text-align:right !important;
+	width:643px;
+	-webkit-animation:postapocalypse 3.9s;
+	-moz-animation:postapocalypse 3.9s;
+	-ms-animation:postapocalypse 3.9s;
+	-o-animation:postapocalypse 3.9s;
+	animation:postapocalypse 3.9s;
+}
+	@-webkit-keyframes postapocalypse {
+		0% { opacity:0; -webkit-animation-timing-function: ease-in; }	
+		85% { opacity:0; -webkit-animation-timing-function: ease-in; }	
+		100% { opacity:1; -webkit-animation-timing-function: ease-in; }
+	}
+	@-moz-keyframes postapocalypse {
+		0% { opacity:0; -moz-animation-timing-function: ease-in; }	
+		85% { opacity:0; -moz-animation-timing-function: ease-in; }	
+		100% { opacity:1; -moz-animation-timing-function: ease-in; }
+	}
+	@-o-keyframes postapocalypse {
+		0% { opacity:0; -o-animation-timing-function: ease-in; }	
+		85% { opacity:0; -o-animation-timing-function: ease-in; }	
+		100% { opacity:1; -o-animation-timing-function: ease-in; }
+	}
+	@keyframes postapocalypse {
+		0% { opacity:0; animation-timing-function: ease-in; }	
+		85% { opacity:0; animation-timing-function: ease-in; }	
+		100% { opacity:1; animation-timing-function: ease-in; }
+	}
+.parallax-7 {
+	top: 106px;
+	z-index:5;
+	font-family: 'roughtype';
+	font-size:55px;
+	line-height:65px;
+	text-align:center !important;
+	letter-spacing:-4px;
+	width:643px;
+	-webkit-animation:sashersund 2.5s;
+	-moz-animation:sashersund 2.5s;
+	-ms-animation:sashersund 2.5s;
+	-o-animation:sashersund 2.5s;
+	animation:sashersund 2.5s;
+}
+	@-webkit-keyframes sashersund {
+		0% { margin:-200px auto 0px auto; -webkit-animation-timing-function: ease-in; }	
+		65% { margin:-200px auto 0px auto; -webkit-animation-timing-function: ease-in; }	
+		100% { margin:0px auto; -webkit-animation-timing-function: ease-in; }
+	}
+	@-moz-keyframes sashersund {
+		0% { margin:-200px auto 0px auto; -webkit-animation-timing-function: ease-in; }	
+		65% { margin:-200px auto 0px auto; -webkit-animation-timing-function: ease-in; }	
+		100% { margin:0px auto; -webkit-animation-timing-function: ease-in; }
+	}
+	@-o-keyframes sashersund {
+		0% { margin:-200px auto 0px auto; -webkit-animation-timing-function: ease-in; }	
+		65% { margin:-200px auto 0px auto; -webkit-animation-timing-function: ease-in; }	
+		100% { margin:0px auto; -webkit-animation-timing-function: ease-in; }
+	}
+	@keyframes sashersund {
+		0% { margin:-200px auto 0px auto; -webkit-animation-timing-function: ease-in; }	
+		65% { margin:-200px auto 0px auto; -webkit-animation-timing-function: ease-in; }	
+		100% { margin:0px auto; -webkit-animation-timing-function: ease-in; }
+	}

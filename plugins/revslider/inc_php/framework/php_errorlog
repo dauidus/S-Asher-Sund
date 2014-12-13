@@ -1,0 +1,9 @@
+[10-Sep-2014 04:01:55 CST6CDT] PHP Fatal error:  Class 'UniteSettingsRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/inc_php/framework/settings_advances.class.php on line 4
+[10-Sep-2014 04:02:39 CST6CDT] PHP Fatal error:  Class 'UniteBaseClassRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/inc_php/framework/base_front.class.php on line 3
+[10-Sep-2014 04:03:08 CST6CDT] PHP Fatal error:  Class 'UniteBaseClassRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/inc_php/framework/base_admin.class.php on line 3
+[10-Sep-2014 04:04:07 CST6CDT] PHP Fatal error:  Call to undefined function site_url() in /home/sashersu/public_html/wp-content/plugins/revslider/inc_php/framework/functions_wordpress.class.php on line 38
+[10-Sep-2014 04:05:06 CST6CDT] PHP Fatal error:  Class 'UniteSettingsOutputRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/inc_php/framework/settings_product_sidebar.class.php on line 2
+[10-Sep-2014 04:05:38 CST6CDT] PHP Fatal error:  Class 'UniteSettingsOutputRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/inc_php/framework/settings_product_sidebar.class (Patrick Kunaths in Konflikt stehende Kopie 2013-08-11).php on line 2
+[10-Sep-2014 04:06:23 CST6CDT] PHP Fatal error:  Class 'UniteSettingsOutputRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/inc_php/framework/settings_product.class (Patrick Kunaths in Konflikt stehende Kopie 2013-08-11).php on line 3
+[10-Sep-2014 04:07:33 CST6CDT] PHP Fatal error:  Class 'UniteSettingsOutputRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/inc_php/framework/settings_product.class.php on line 3
+[10-Sep-2014 04:08:48 CST6CDT] PHP Fatal error:  Call to undefined function site_url() in /home/sashersu/public_html/wp-content/plugins/revslider/inc_php/framework/functions_wordpress.class.php on line 38

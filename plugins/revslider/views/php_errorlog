@@ -1,0 +1,6 @@
+[10-Sep-2014 03:48:40 CST6CDT] PHP Fatal error:  Cannot access self:: when no class scope is active in /home/sashersu/public_html/wp-content/plugins/revslider/views/slider.php on line 4
+[10-Sep-2014 03:48:41 CST6CDT] PHP Fatal error:  Cannot access self:: when no class scope is active in /home/sashersu/public_html/wp-content/plugins/revslider/views/slider_template.php on line 4
+[10-Sep-2014 03:48:42 CST6CDT] PHP Fatal error:  Class 'UniteFunctionsRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/views/slide.php on line 4
+[10-Sep-2014 03:48:42 CST6CDT] PHP Fatal error:  Class 'RevOperations' not found in /home/sashersu/public_html/wp-content/plugins/revslider/views/slides.php on line 3
+[10-Sep-2014 03:48:43 CST6CDT] PHP Fatal error:  Class 'GlobalsRevSlider' not found in /home/sashersu/public_html/wp-content/plugins/revslider/views/master_view.php on line 5
+[10-Sep-2014 03:48:45 CST6CDT] PHP Fatal error:  Class 'RevSlider' not found in /home/sashersu/public_html/wp-content/plugins/revslider/views/sliders.php on line 2

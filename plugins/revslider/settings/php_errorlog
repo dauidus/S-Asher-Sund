@@ -1,0 +1,5 @@
+[10-Sep-2014 03:49:16 CST6CDT] PHP Fatal error:  Class 'RevOperations' not found in /home/sashersu/public_html/wp-content/plugins/revslider/settings/layer_settings.php on line 3
+[10-Sep-2014 03:49:18 CST6CDT] PHP Fatal error:  Call to a member function getArrTransition() on a non-object in /home/sashersu/public_html/wp-content/plugins/revslider/settings/slide_settings.php on line 4
+[10-Sep-2014 03:51:23 CST6CDT] PHP Fatal error:  Class 'UniteSettingsAdvancedRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/settings/slider_settings.php on line 4
+[10-Sep-2014 03:52:52 CST6CDT] PHP Fatal error:  Class 'UniteSettingsRev' not found in /home/sashersu/public_html/wp-content/plugins/revslider/settings/general_settings.php on line 3
+[10-Sep-2014 03:55:49 CST6CDT] PHP Fatal error:  Call to undefined function _e() in /home/sashersu/public_html/wp-content/plugins/revslider/settings/slider_settings_xml_lang.php on line 2
