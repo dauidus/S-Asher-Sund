@@ -72,7 +72,7 @@
             }); /* being mobile javascript */
                        jQuery(function($) {
                 $('.pagination-span a').click(function() {
-                    $('.pagination-span-load').fadeIn(200).delay(1450).fadeOut(200);
+                    $('.pagination-span-load').fadeIn(200).delay(50).fadeOut(200);
                     });
             }); /*start of the guts for jquery*/
            
